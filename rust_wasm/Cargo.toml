@@ -1,0 +1,15 @@
+[package]
+name = "rust_wasm"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "rust_wasm"
+path = "src/main.rs"
+
+
+[dependencies]
+
+
+[profile.release]
+opt-level = 3

@@ -1,0 +1,6 @@
+/target/
+*.wasm
+/output_all_at_once.txt
+/output_one_at_a_time.txt
+Cargo.lock
+.DS_Store
