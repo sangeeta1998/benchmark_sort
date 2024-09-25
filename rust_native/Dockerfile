@@ -10,10 +10,7 @@ RUN cargo fetch
 COPY src/ ./src/
 RUN cargo build --release
 
-# Strip and compress the binary
-RUN strip /usr/src/myapp/target/release/rust_native
-
-# Runtime stage
+# Runtime st
 FROM scratch
 COPY --from=builder /usr/src/myapp/target/release/rust_native /rust_native
 COPY input.txt /input.txt
