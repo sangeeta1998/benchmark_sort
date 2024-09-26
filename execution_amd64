@@ -1,0 +1,185 @@
+============================================
+Running sangeetakakati/sort-rust-native:latest with
+--------------------------------------------
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:756f85de6b6b1ab6430cf8d1f820111ea7b56ca9823bed4e166b6c8f12a8520a
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+Unable to find image 'sangeetakakati/sort-rust-native:latest' locally
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:756f85de6b6b1ab6430cf8d1f820111ea7b56ca9823bed4e166b6c8f12a8520a
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+Main function started at: 1727339275585 ms
+Time for sorting all at once: 777.542µs
+Time for sorting one at a time: 357.413µs
+
+real    0m2.689s
+user    0m0.019s
+sys     0m0.011s
+--------------------------------------------
+Execution for sangeetakakati/sort-rust-native:latest (native) completed
+
+============================================
+Running sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmtime.v1
+--------------------------------------------
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Deleted: sha256:3aaf4dcea56722ccf29a342fa2351e4af05b934f37d859c093e0b7772461084d
+Unable to find image 'sangeetakakati/sort-rust-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+5d0e7aa06827: Already exists
+26d0345ddc9f: Already exists
+Digest: sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1727339279794 ms
+Time for sorting all at once: 8.372026ms
+Time for sorting one at a time: 6.411452ms
+
+real    0m4.209s
+user    0m0.016s
+sys     0m0.013s
+--------------------------------------------
+Execution for sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmtime.v1 completed
+
+============================================
+Running sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmedge.v1
+--------------------------------------------
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Deleted: sha256:3aaf4dcea56722ccf29a342fa2351e4af05b934f37d859c093e0b7772461084d
+Unable to find image 'sangeetakakati/sort-rust-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+5d0e7aa06827: Already exists
+26d0345ddc9f: Already exists
+Digest: sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1727339282250 ms
+Time for sorting all at once: 614.424µs
+Time for sorting one at a time: 902.619µs
+
+real    0m2.397s
+user    0m0.010s
+sys     0m0.017s
+--------------------------------------------
+Execution for sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmedge.v1 completed
+
+============================================
+Running sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmer.v1
+--------------------------------------------
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Deleted: sha256:3aaf4dcea56722ccf29a342fa2351e4af05b934f37d859c093e0b7772461084d
+Unable to find image 'sangeetakakati/sort-rust-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+5d0e7aa06827: Already exists
+26d0345ddc9f: Already exists
+Digest: sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1727339284800 ms
+Time for sorting all at once: 5.288663ms
+Time for sorting one at a time: 1.716645ms
+
+real    0m2.523s
+user    0m0.018s
+sys     0m0.011s
+--------------------------------------------
+Execution for sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmer.v1 completed
+
+============================================
+Running sangeetakakati/sort-tinygo-native:latest with
+--------------------------------------------
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+Unable to find image 'sangeetakakati/sort-tinygo-native:latest' locally
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1727339287373 ms
+Time for sorting all at once: 134.547µs
+Time for sorting one at a time: 82.777µs
+
+real    0m2.553s
+user    0m0.014s
+sys     0m0.013s
+--------------------------------------------
+Execution for sangeetakakati/sort-tinygo-native:latest (native) completed
+
+============================================
+Running sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmtime.v1
+--------------------------------------------
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:cedadbfdd3d0ba999e23ee3ccef1495c4d28ac536f0d26627b64fc1b2a22a5e0
+Deleted: sha256:50561fcaa9bccf9ee3c8ea05c5743e3e28be6ce31975820c1251d3f872f35654
+Deleted: sha256:4dfa70443d77e507be3eaedfe1b8b3837f9a0f79b32e9e8c9400293ee4cb3f72
+Deleted: sha256:78ced645017bec31f0cdbe13a20db67ae5234d943e3e5cbc9eed56c9798d17af
+Unable to find image 'sangeetakakati/sort-tinygo-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+f64c6bd37395: Pull complete
+2b95ef10feaa: Pull complete
+Digest: sha256:cedadbfdd3d0ba999e23ee3ccef1495c4d28ac536f0d26627b64fc1b2a22a5e0
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1727339299767 ms
+Time for sorting all at once: 13.045591ms
+Time for sorting one at a time: 8.274639ms
+
+real    0m12.396s
+user    0m0.017s
+sys     0m0.013s
+--------------------------------------------
+Execution for sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmtime.v1 completed
+
+============================================
+Running sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmedge.v1
+--------------------------------------------
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:cedadbfdd3d0ba999e23ee3ccef1495c4d28ac536f0d26627b64fc1b2a22a5e0
+Deleted: sha256:50561fcaa9bccf9ee3c8ea05c5743e3e28be6ce31975820c1251d3f872f35654
+Deleted: sha256:4dfa70443d77e507be3eaedfe1b8b3837f9a0f79b32e9e8c9400293ee4cb3f72
+Deleted: sha256:78ced645017bec31f0cdbe13a20db67ae5234d943e3e5cbc9eed56c9798d17af
+Unable to find image 'sangeetakakati/sort-tinygo-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+f64c6bd37395: Pull complete
+2b95ef10feaa: Pull complete
+Digest: sha256:cedadbfdd3d0ba999e23ee3ccef1495c4d28ac536f0d26627b64fc1b2a22a5e0
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1727339302425 ms
+Time for sorting all at once: 714.16µs
+Time for sorting one at a time: 1.550343ms
+
+real    0m2.591s
+user    0m0.015s
+sys     0m0.015s
+--------------------------------------------
+Execution for sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmedge.v1 completed
+
+============================================
+Running sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmer.v1
+--------------------------------------------
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:cedadbfdd3d0ba999e23ee3ccef1495c4d28ac536f0d26627b64fc1b2a22a5e0
+Deleted: sha256:50561fcaa9bccf9ee3c8ea05c5743e3e28be6ce31975820c1251d3f872f35654
+Deleted: sha256:4dfa70443d77e507be3eaedfe1b8b3837f9a0f79b32e9e8c9400293ee4cb3f72
+Deleted: sha256:78ced645017bec31f0cdbe13a20db67ae5234d943e3e5cbc9eed56c9798d17af
+Unable to find image 'sangeetakakati/sort-tinygo-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+f64c6bd37395: Pull complete
+2b95ef10feaa: Pull complete
+Digest: sha256:cedadbfdd3d0ba999e23ee3ccef1495c4d28ac536f0d26627b64fc1b2a22a5e0
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1727339305383 ms
+Time for sorting all at once: 3.151911ms
+Time for sorting one at a time: 893.315µs
+
+real    0m2.927s
+user    0m0.019s
+sys     0m0.010s
+--------------------------------------------
+Execution for sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmer.v1 completed

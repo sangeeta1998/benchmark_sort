@@ -1,0 +1,174 @@
+Measuring Native Rust for amd64...
+Script start time: 1727336249093 ms
+Rust Trial 1 (Pull, amd64): Startup Time = 2532 ms
+Script start time: 1727336251761 ms
+Rust Trial 2 (Pull, amd64): Startup Time = 2362 ms
+Script start time: 1727336254255 ms
+Rust Trial 3 (Pull, amd64): Startup Time = 2359 ms
+Script start time: 1727336256747 ms
+Rust Trial 4 (Pull, amd64): Startup Time = 2319 ms
+Script start time: 1727336259197 ms
+Rust Trial 5 (Pull, amd64): Startup Time = 2349 ms
+Script start time: 1727336261686 ms
+Rust Trial 6 (Pull, amd64): Startup Time = 2294 ms
+Script start time: 1727336264109 ms
+Rust Trial 7 (Pull, amd64): Startup Time = 2319 ms
+Script start time: 1727336266558 ms
+Rust Trial 8 (Pull, amd64): Startup Time = 2278 ms
+Script start time: 1727336268970 ms
+Rust Trial 9 (Pull, amd64): Startup Time = 2301 ms
+Script start time: 1727336271406 ms
+Rust Trial 10 (Pull, amd64): Startup Time = 2319 ms
+Script start time: 1727336274789 ms
+Rust Trial 1 (Cache, amd64): Startup Time = 318 ms
+Script start time: 1727336276174 ms
+Rust Trial 2 (Cache, amd64): Startup Time = 284 ms
+Script start time: 1727336277547 ms
+Rust Trial 3 (Cache, amd64): Startup Time = 287 ms
+Script start time: 1727336278912 ms
+Rust Trial 4 (Cache, amd64): Startup Time = 295 ms
+Script start time: 1727336280280 ms
+Rust Trial 5 (Cache, amd64): Startup Time = 282 ms
+Script start time: 1727336281664 ms
+Rust Trial 6 (Cache, amd64): Startup Time = 314 ms
+Script start time: 1727336283072 ms
+Rust Trial 7 (Cache, amd64): Startup Time = 286 ms
+Script start time: 1727336284431 ms
+Rust Trial 8 (Cache, amd64): Startup Time = 292 ms
+Script start time: 1727336285802 ms
+Rust Trial 9 (Cache, amd64): Startup Time = 300 ms
+Script start time: 1727336287183 ms
+Rust Trial 10 (Cache, amd64): Startup Time = 288 ms
+Average Rust cold start time from pull (amd64): 2343 ms
+Average Rust cold start time from cache (amd64): 294 ms
+Measuring Native TinyGo for amd64...
+Script start time: 1727336287603 ms
+TinyGo Trial 1 (Pull, amd64): Startup Time = 2363 ms
+Script start time: 1727336290105 ms
+TinyGo Trial 2 (Pull, amd64): Startup Time = 2416 ms
+Script start time: 1727336292675 ms
+TinyGo Trial 3 (Pull, amd64): Startup Time = 2318 ms
+Script start time: 1727336295129 ms
+TinyGo Trial 4 (Pull, amd64): Startup Time = 2324 ms
+Script start time: 1727336297589 ms
+TinyGo Trial 5 (Pull, amd64): Startup Time = 2314 ms
+Script start time: 1727336300042 ms
+TinyGo Trial 6 (Pull, amd64): Startup Time = 2333 ms
+Script start time: 1727336302511 ms
+TinyGo Trial 7 (Pull, amd64): Startup Time = 2314 ms
+Script start time: 1727336304965 ms
+TinyGo Trial 8 (Pull, amd64): Startup Time = 2308 ms
+Script start time: 1727336307407 ms
+TinyGo Trial 9 (Pull, amd64): Startup Time = 2300 ms
+Script start time: 1727336309847 ms
+TinyGo Trial 10 (Pull, amd64): Startup Time = 2297 ms
+Script start time: 1727336313200 ms
+TinyGo Trial 1 (Cache, amd64): Startup Time = 311 ms
+Script start time: 1727336314571 ms
+TinyGo Trial 2 (Cache, amd64): Startup Time = 295 ms
+Script start time: 1727336315946 ms
+TinyGo Trial 3 (Cache, amd64): Startup Time = 291 ms
+Script start time: 1727336317324 ms
+TinyGo Trial 4 (Cache, amd64): Startup Time = 303 ms
+Script start time: 1727336318691 ms
+TinyGo Trial 5 (Cache, amd64): Startup Time = 289 ms
+Script start time: 1727336320043 ms
+TinyGo Trial 6 (Cache, amd64): Startup Time = 312 ms
+Script start time: 1727336321422 ms
+TinyGo Trial 7 (Cache, amd64): Startup Time = 295 ms
+Script start time: 1727336322766 ms
+TinyGo Trial 8 (Cache, amd64): Startup Time = 283 ms
+Script start time: 1727336324128 ms
+TinyGo Trial 9 (Cache, amd64): Startup Time = 294 ms
+Script start time: 1727336325482 ms
+TinyGo Trial 10 (Cache, amd64): Startup Time = 293 ms
+Average TinyGo cold start time from pull (amd64): 2328 ms
+Average TinyGo cold start time from cache (amd64): 296 ms
+Measuring Wasm Rust...
+Architecture: wasm
+Script start time: 1727336325899 ms
+Rust Wasm Trial 1 (Pull, wasm): Startup Time = 4606 ms
+Script start time: 1727336330691 ms
+Rust Wasm Trial 2 (Pull, wasm): Startup Time = 3964 ms
+Script start time: 1727336334822 ms
+Rust Wasm Trial 3 (Pull, wasm): Startup Time = 3975 ms
+Script start time: 1727336338941 ms
+Rust Wasm Trial 4 (Pull, wasm): Startup Time = 4001 ms
+Script start time: 1727336343116 ms
+Rust Wasm Trial 5 (Pull, wasm): Startup Time = 3994 ms
+Script start time: 1727336347261 ms
+Rust Wasm Trial 6 (Pull, wasm): Startup Time = 3989 ms
+Script start time: 1727336351421 ms
+Rust Wasm Trial 7 (Pull, wasm): Startup Time = 4037 ms
+Script start time: 1727336355603 ms
+Rust Wasm Trial 8 (Pull, wasm): Startup Time = 3991 ms
+Script start time: 1727336359744 ms
+Rust Wasm Trial 9 (Pull, wasm): Startup Time = 3980 ms
+Script start time: 1727336363892 ms
+Rust Wasm Trial 10 (Pull, wasm): Startup Time = 4022 ms
+Script start time: 1727336368992 ms
+Rust Wasm Trial 1 (Cache, wasm): Startup Time = 2101 ms
+Script start time: 1727336372198 ms
+Rust Wasm Trial 2 (Cache, wasm): Startup Time = 2049 ms
+Script start time: 1727336375337 ms
+Rust Wasm Trial 3 (Cache, wasm): Startup Time = 2089 ms
+Script start time: 1727336378518 ms
+Rust Wasm Trial 4 (Cache, wasm): Startup Time = 2041 ms
+Script start time: 1727336381734 ms
+Rust Wasm Trial 5 (Cache, wasm): Startup Time = 2073 ms
+Script start time: 1727336384896 ms
+Rust Wasm Trial 6 (Cache, wasm): Startup Time = 2087 ms
+Script start time: 1727336388068 ms
+Rust Wasm Trial 7 (Cache, wasm): Startup Time = 2047 ms
+Script start time: 1727336391199 ms
+Rust Wasm Trial 8 (Cache, wasm): Startup Time = 2083 ms
+Script start time: 1727336395407 ms
+Rust Wasm Trial 9 (Cache, wasm): Startup Time = 2096 ms
+Script start time: 1727336398572 ms
+Rust Wasm Trial 10 (Cache, wasm): Startup Time = 2067 ms
+Average Rust Wasm cold start time from pull (wasm): 4055 ms
+Average Rust Wasm cold start time from cache (wasm): 2073 ms
+Measuring Wasm TinyGo...
+Architecture: wasm
+Script start time: 1727336400809 ms
+TinyGo Wasm Trial 1 (Pull, wasm): Startup Time = 12354 ms
+Script start time: 1727336413329 ms
+TinyGo Wasm Trial 2 (Pull, wasm): Startup Time = 12283 ms
+Script start time: 1727336425793 ms
+TinyGo Wasm Trial 3 (Pull, wasm): Startup Time = 12211 ms
+Script start time: 1727336438171 ms
+TinyGo Wasm Trial 4 (Pull, wasm): Startup Time = 12226 ms
+Script start time: 1727336450554 ms
+TinyGo Wasm Trial 5 (Pull, wasm): Startup Time = 12219 ms
+Script start time: 1727336462931 ms
+TinyGo Wasm Trial 6 (Pull, wasm): Startup Time = 12460 ms
+Script start time: 1727336475560 ms
+TinyGo Wasm Trial 7 (Pull, wasm): Startup Time = 12206 ms
+Script start time: 1727336487916 ms
+TinyGo Wasm Trial 8 (Pull, wasm): Startup Time = 12264 ms
+Script start time: 1727336500320 ms
+TinyGo Wasm Trial 9 (Pull, wasm): Startup Time = 12386 ms
+Script start time: 1727336512870 ms
+TinyGo Wasm Trial 10 (Pull, wasm): Startup Time = 12234 ms
+Script start time: 1727336526192 ms
+TinyGo Wasm Trial 1 (Cache, wasm): Startup Time = 10247 ms
+Script start time: 1727336537545 ms
+TinyGo Wasm Trial 2 (Cache, wasm): Startup Time = 10238 ms
+Script start time: 1727336548850 ms
+TinyGo Wasm Trial 3 (Cache, wasm): Startup Time = 10228 ms
+Script start time: 1727336560188 ms
+TinyGo Wasm Trial 4 (Cache, wasm): Startup Time = 10190 ms
+Script start time: 1727336571436 ms
+TinyGo Wasm Trial 5 (Cache, wasm): Startup Time = 10181 ms
+Script start time: 1727336582705 ms
+TinyGo Wasm Trial 6 (Cache, wasm): Startup Time = 10215 ms
+Script start time: 1727336593998 ms
+TinyGo Wasm Trial 7 (Cache, wasm): Startup Time = 10196 ms
+Script start time: 1727336605281 ms
+TinyGo Wasm Trial 8 (Cache, wasm): Startup Time = 10281 ms
+Script start time: 1727336616615 ms
+TinyGo Wasm Trial 9 (Cache, wasm): Startup Time = 10168 ms
+Script start time: 1727336627845 ms
+TinyGo Wasm Trial 10 (Cache, wasm): Startup Time = 10230 ms
+Average TinyGo Wasm cold start time from pull (wasm): 12284 ms
+Average TinyGo Wasm cold start time from cache (wasm): 10217 ms
