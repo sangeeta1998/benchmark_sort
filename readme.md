@@ -1,11 +1,11 @@
 # Wasm
 docker buildx build --platform wasm --tag sangeetakakati/sort-rust-wasm:wasm --output "type=image,push=true" --builder default .
 
-docker run --runtime=io.containerd.wasmtime.v1 --platform=wasm sangeetakakati/sort-rust-wasm:wasm
+docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm sangeetakakati/sort-rust-wasm:wasm
 
 docker buildx build --platform wasm --tag sangeetakakati/sort-tinygo-wasm:wasm --output "type=image,push=true" --builder default .
 
-docker run --runtime=io.containerd.wasmtime.v1 --platform=wasm --rm sangeetakakati/sort-tinygo-wasm:wasm
+docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm --rm sangeetakakati/sort-tinygo-wasm:wasm
 
 # Native
 

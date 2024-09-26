@@ -57,11 +57,11 @@ tinygo_wasm_image="sangeetakakati/sort-tinygo-wasm:wasm"
 
 # Measure execution time for each runtime
 measure_execution_time "$rust_native_image" "" "$arch"
-measure_execution_time "$rust_wasm_image" "io.containerd.wasmtime.v1" "wasm"
-measure_execution_time "$rust_wasm_image" "io.containerd.wasmedge.v1" "wasm"
-measure_execution_time "$rust_wasm_image" "io.containerd.wasmer.v1" "wasm"
+measure_execution_time "$rust_wasm_image" "io.containerd.wasmtime.v2" "wasm"
+#measure_execution_time "$rust_wasm_image" "io.containerd.wasmedge.v1" "wasm"
+#measure_execution_time "$rust_wasm_image" "io.containerd.wasmer.v1" "wasm"
 
 measure_execution_time "$tinygo_native_image" "" "$arch"
-measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmtime.v1" "wasm"
-measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmedge.v1" "wasm"
-measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmer.v1" "wasm"
+measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmtime.v2" "wasm"
+#measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmedge.v1" "wasm"
+#measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmer.v1" "wasm"
