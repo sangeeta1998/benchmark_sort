@@ -1,0 +1,56 @@
+
+============================================
+Running sangeetakakati/sort-rust-native:latest with 
+--------------------------------------------
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:756f85de6b6b1ab6430cf8d1f820111ea7b56ca9823bed4e166b6c8f12a8520a
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+Main function started at: 1727436197916 ms
+Time for sorting all at once: 137.495µs
+Time for sorting one at a time: 162.128µs
+--------------------------------------------
+Execution for sangeetakakati/sort-rust-native:latest (native) completed
+
+============================================
+Running sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmtime.v2
+--------------------------------------------
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Deleted: sha256:3aaf4dcea56722ccf29a342fa2351e4af05b934f37d859c093e0b7772461084d
+Deleted: sha256:acd309132d553867949653513373cbdea8120a71e91dca13f7384d6c64fc069a
+Deleted: sha256:aa9218095a037bb615ae4e5027194c7d53eee3031f2b0fba2e62d1a77ef19f92
+Main function started at: 1727436200613 ms
+Time for sorting all at once: 3.345426ms
+Time for sorting one at a time: 2.732108ms
+--------------------------------------------
+Execution for sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmtime.v2 completed
+
+============================================
+Running sangeetakakati/sort-tinygo-native:latest with 
+--------------------------------------------
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+Main function started at: 1727436203109 ms
+Time for sorting all at once: 101.632µs
+Time for sorting one at a time: 49.48µs
+--------------------------------------------
+Execution for sangeetakakati/sort-tinygo-native:latest (native) completed
+
+============================================
+Running sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmtime.v2
+--------------------------------------------
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:cedadbfdd3d0ba999e23ee3ccef1495c4d28ac536f0d26627b64fc1b2a22a5e0
+Deleted: sha256:50561fcaa9bccf9ee3c8ea05c5743e3e28be6ce31975820c1251d3f872f35654
+Deleted: sha256:4dfa70443d77e507be3eaedfe1b8b3837f9a0f79b32e9e8c9400293ee4cb3f72
+Deleted: sha256:78ced645017bec31f0cdbe13a20db67ae5234d943e3e5cbc9eed56c9798d17af
+Main function started at: 1727436206007 ms
+Time for sorting all at once: 5.29621ms
+Time for sorting one at a time: 2.733181ms
+--------------------------------------------
+Execution for sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmtime.v2 completed
