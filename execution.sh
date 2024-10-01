@@ -17,14 +17,12 @@ detect_architecture() {
     esac
 }
 
-# Function to measure execution time using the 'time' command
 measure_execution_time() {
     image=$1
     runtime=$2
     platform=$3
     container_name="test_container"
 
-    # Print a clear separator
     echo -e "\n============================================"
     echo "Running $image with $runtime"
     echo "--------------------------------------------"
@@ -33,29 +31,30 @@ measure_execution_time() {
     docker rmi $image
 
     # Measure execution time
-    if [ -z "$runtime" ]; then
-        # For native containers
-        time docker run --name $container_name --rm $image 
-        echo -e "--------------------------------------------"
-        echo "Execution for $image (native) completed"
-    else
-        # For Wasm containers with specific runtime
-        time docker run --runtime=$runtime --platform=$platform --name $container_name --rm $image
-        echo -e "--------------------------------------------"
-        echo "Execution for $image with $runtime completed"
-    fi
+    {
+        if [ -z "$runtime" ]; then
+            # For native containers
+            time docker run --name $container_name --rm $image 
+        else
+            # For Wasm containers with specific runtime
+            time docker run --runtime=$runtime --platform=$platform --name $container_name --rm $image
+        fi
+    } 2>&1 | tee -a execution_time.log
+
+    echo -e "--------------------------------------------"
+    echo "Execution for $image completed"
 }
 
-# Detect current system architecture
+
+
+
 arch=$(detect_architecture)
 
-# Define image names with appropriate architecture tags
 rust_native_image="sangeetakakati/sort-rust-native:latest"
 tinygo_native_image="sangeetakakati/sort-tinygo-native:latest"
 rust_wasm_image="sangeetakakati/sort-rust-wasm:wasm"
 tinygo_wasm_image="sangeetakakati/sort-tinygo-wasm:wasm"
 
-# Measure execution time for each runtime
 measure_execution_time "$rust_native_image" "" "$arch"
 measure_execution_time "$rust_wasm_image" "io.containerd.wasmtime.v2" "wasm"
 #measure_execution_time "$rust_wasm_image" "io.containerd.wasmedge.v1" "wasm"
