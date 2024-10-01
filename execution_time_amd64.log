@@ -1,0 +1,71 @@
+Unable to find image 'sangeetakakati/sort-rust-native:latest' locally
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+5a76569d4da7: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Verifying Checksum
+ea89621ad76d: Download complete
+ea89621ad76d: Pull complete
+Digest: sha256:756f85de6b6b1ab6430cf8d1f820111ea7b56ca9823bed4e166b6c8f12a8520a
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+Main function started at: 1727770420568 ms
+Time for sorting all at once: 168.468µs
+Time for sorting one at a time: 94.123µs
+
+real	0m2.539s
+user	0m0.013s
+sys	0m0.011s
+Unable to find image 'sangeetakakati/sort-rust-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+5d0e7aa06827: Pulling fs layer
+26d0345ddc9f: Pulling fs layer
+26d0345ddc9f: Verifying Checksum
+26d0345ddc9f: Download complete
+5d0e7aa06827: Pull complete
+26d0345ddc9f: Pull complete
+Digest: sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1727770423047 ms
+Time for sorting all at once: 4.502354ms
+Time for sorting one at a time: 3.704118ms
+
+real	0m2.458s
+user	0m0.013s
+sys	0m0.011s
+Unable to find image 'sangeetakakati/sort-tinygo-native:latest' locally
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Verifying Checksum
+b372196cf04f: Download complete
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1727770425496 ms
+Time for sorting all at once: 113.162µs
+Time for sorting one at a time: 605.028µs
+
+real	0m2.416s
+user	0m0.014s
+sys	0m0.009s
+Unable to find image 'sangeetakakati/sort-tinygo-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+f64c6bd37395: Pulling fs layer
+2b95ef10feaa: Pulling fs layer
+f64c6bd37395: Download complete
+2b95ef10feaa: Verifying Checksum
+2b95ef10feaa: Download complete
+f64c6bd37395: Pull complete
+2b95ef10feaa: Pull complete
+Digest: sha256:cedadbfdd3d0ba999e23ee3ccef1495c4d28ac536f0d26627b64fc1b2a22a5e0
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1727770428381 ms
+Time for sorting all at once: 1.947005ms
+Time for sorting one at a time: 1.245635ms
+
+real	0m2.856s
+user	0m0.009s
+sys	0m0.012s
