@@ -22,6 +22,4 @@ docker run --platform=linux/amd64 --rm sangeetakakati/sort-rust-native:latest
 
 docker run --platform=linux/arm64 --rm sangeetakakati/sort-rust-native:latest
 
-# Output files 
 
-docker run --platform=linux/amd64 --rm -v "$(pwd)":/app sangeetakakati/sort-rust-native:latest
