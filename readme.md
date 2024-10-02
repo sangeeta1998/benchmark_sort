@@ -12,12 +12,14 @@ docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm --rm sangeetakaka
 docker buildx build --platform linux/amd64,linux/arm64 --tag sangeetakakati/sort-tinygo-native:latest --output "type=image,push=true" --builder default .
 
 docker run --platform=linux/amd64 --rm sangeetakakati/sort-tinygo-native:latest
+
 docker run --platform=linux/arm64 --rm sangeetakakati/sort-tinygo-native:latest
 
 
 docker buildx build --platform linux/amd64,linux/arm64 --tag sangeetakakati/sort-rust-native:latest --output "type=image,push=true" --builder default .
 
 docker run --platform=linux/amd64 --rm sangeetakakati/sort-rust-native:latest
+
 docker run --platform=linux/arm64 --rm sangeetakakati/sort-rust-native:latest
 
 # Output files 
