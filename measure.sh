@@ -20,7 +20,7 @@ detect_architecture() {
 
 measure_native_rust() {
     local arch=$1
-    trials=3
+    trials=10
 
     echo "Measuring Native Rust for $arch..."
 
@@ -43,7 +43,7 @@ measure_native_rust() {
 
 measure_native_tinygo() {
     local arch=$1
-    trials=3
+    trials=10
 
     echo "Measuring Native TinyGo for $arch..."
 
@@ -66,7 +66,7 @@ measure_native_tinygo() {
 }
 
 measure_wasm_rust() {
-    trials=3
+    trials=10
     architectures=("wasm")
 
     echo "Measuring Wasm Rust..."
@@ -92,7 +92,7 @@ measure_wasm_rust() {
 }
 
 measure_wasm_tinygo() {
-    trials=3
+    trials=10
     architectures=("wasm")
 
     echo "Measuring Wasm TinyGo..."
