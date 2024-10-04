@@ -52,15 +52,16 @@ arch=$(detect_architecture)
 
 rust_native_image="sangeetakakati/sort-rust-native:latest"
 tinygo_native_image="sangeetakakati/sort-tinygo-native:latest"
+cpp_native_image="sangeetakakati/cpp-sort-native:latest"
+cpp_wasm_image="sangeetakakati/cpp-sort-wasm:wasm"
 rust_wasm_image="sangeetakakati/sort-rust-wasm:wasm"
 tinygo_wasm_image="sangeetakakati/sort-tinygo-wasm:wasm"
 
 measure_execution_time "$rust_native_image" "" "$arch"
 measure_execution_time "$rust_wasm_image" "io.containerd.wasmtime.v2" "wasm"
-#measure_execution_time "$rust_wasm_image" "io.containerd.wasmedge.v1" "wasm"
-#measure_execution_time "$rust_wasm_image" "io.containerd.wasmer.v1" "wasm"
 
 measure_execution_time "$tinygo_native_image" "" "$arch"
 measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmtime.v2" "wasm"
-#measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmedge.v1" "wasm"
-#measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmer.v1" "wasm"
+
+measure_execution_time "$cpp_native_image" "" "$arch"
+measure_execution_time "$cpp_wasm_image" "io.containerd.wasmtime.v2" "wasm"
