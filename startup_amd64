@@ -1,0 +1,135 @@
+Measuring Native Rust for amd64...
+Script start time: 1728139290716 ms
+Rust Sort Trial 1 (Pull, amd64): Startup Time = 2772 ms
+Script start time: 1728139293728 ms
+Rust Sort Trial 2 (Pull, amd64): Startup Time = 2203 ms
+Script start time: 1728139296074 ms
+Rust Sort Trial 3 (Pull, amd64): Startup Time = 2531 ms
+Script start time: 1728139298864 ms
+Rust Sort Trial 4 (Pull, amd64): Startup Time = 2443 ms
+Script start time: 1728139301652 ms
+Rust Sort Trial 5 (Pull, amd64): Startup Time = 2422 ms
+Script start time: 1728139304219 ms
+Rust Sort Trial 6 (Pull, amd64): Startup Time = 2633 ms
+Script start time: 1728139306985 ms
+Rust Sort Trial 7 (Pull, amd64): Startup Time = 2383 ms
+Script start time: 1728139309657 ms
+Rust Sort Trial 8 (Pull, amd64): Startup Time = 2439 ms
+Script start time: 1728139312284 ms
+Rust Sort Trial 9 (Pull, amd64): Startup Time = 2226 ms
+Script start time: 1728139314644 ms
+Rust Sort Trial 10 (Pull, amd64): Startup Time = 2280 ms
+Average Rust cold start time from pull (amd64): 2433 ms
+Measuring Native TinyGo for amd64...
+Script start time: 1728139317064 ms
+TinyGo Sort Trial 1 (Pull, amd64): Startup Time = 2765 ms
+Script start time: 1728139320090 ms
+TinyGo Sort Trial 2 (Pull, amd64): Startup Time = 2335 ms
+Script start time: 1728139322567 ms
+TinyGo Sort Trial 3 (Pull, amd64): Startup Time = 2342 ms
+Script start time: 1728139325069 ms
+TinyGo Sort Trial 4 (Pull, amd64): Startup Time = 2374 ms
+Script start time: 1728139327591 ms
+TinyGo Sort Trial 5 (Pull, amd64): Startup Time = 2258 ms
+Script start time: 1728139329985 ms
+TinyGo Sort Trial 6 (Pull, amd64): Startup Time = 2342 ms
+Script start time: 1728139332472 ms
+TinyGo Sort Trial 7 (Pull, amd64): Startup Time = 2240 ms
+Script start time: 1728139334857 ms
+TinyGo Sort Trial 8 (Pull, amd64): Startup Time = 2309 ms
+Script start time: 1728139337313 ms
+TinyGo Sort Trial 9 (Pull, amd64): Startup Time = 2228 ms
+Script start time: 1728139339700 ms
+TinyGo Sort Trial 10 (Pull, amd64): Startup Time = 2203 ms
+Average TinyGo cold start time from pull (amd64): 2339 ms
+Measuring Native C++ for amd64...
+Script start time: 1728139342047 ms
+C++ Sort Trial 1 (Pull, amd64): Startup Time = 7813 ms
+Script start time: 1728139350009 ms
+C++ Sort Trial 2 (Pull, amd64): Startup Time = 2250 ms
+Script start time: 1728139352398 ms
+C++ Sort Trial 3 (Pull, amd64): Startup Time = 2410 ms
+Script start time: 1728139354967 ms
+C++ Sort Trial 4 (Pull, amd64): Startup Time = 2281 ms
+Script start time: 1728139357396 ms
+C++ Sort Trial 5 (Pull, amd64): Startup Time = 2409 ms
+Script start time: 1728139359946 ms
+C++ Sort Trial 6 (Pull, amd64): Startup Time = 2347 ms
+Script start time: 1728139362446 ms
+C++ Sort Trial 7 (Pull, amd64): Startup Time = 2334 ms
+Script start time: 1728139364933 ms
+C++ Sort Trial 8 (Pull, amd64): Startup Time = 2250 ms
+Script start time: 1728139367341 ms
+C++ Sort Trial 9 (Pull, amd64): Startup Time = 2232 ms
+Script start time: 1728139369722 ms
+C++ Sort Trial 10 (Pull, amd64): Startup Time = 2257 ms
+Average C++ cold start time from pull (amd64): 2858 ms
+Measuring Wasm Rust...
+Architecture: wasm
+Script start time: 1728139372119 ms
+Rust Sort Wasm Trial 1 (Pull, wasm): Startup Time = 12708 ms
+Script start time: 1728139384991 ms
+Rust Sort Wasm Trial 2 (Pull, wasm): Startup Time = 2325 ms
+Script start time: 1728139387459 ms
+Rust Sort Wasm Trial 3 (Pull, wasm): Startup Time = 2304 ms
+Script start time: 1728139389936 ms
+Rust Sort Wasm Trial 4 (Pull, wasm): Startup Time = 2277 ms
+Script start time: 1728139392473 ms
+Rust Sort Wasm Trial 5 (Pull, wasm): Startup Time = 2315 ms
+Script start time: 1728139394960 ms
+Rust Sort Wasm Trial 6 (Pull, wasm): Startup Time = 2256 ms
+Script start time: 1728139397388 ms
+Rust Sort Wasm Trial 7 (Pull, wasm): Startup Time = 2268 ms
+Script start time: 1728139399820 ms
+Rust Sort Wasm Trial 8 (Pull, wasm): Startup Time = 2290 ms
+Script start time: 1728139402365 ms
+Rust Sort Wasm Trial 9 (Pull, wasm): Startup Time = 2347 ms
+Script start time: 1728139404867 ms
+Rust Sort Wasm Trial 10 (Pull, wasm): Startup Time = 2265 ms
+Average Rust Sort Wasm cold start time from pull (wasm): 3335 ms
+Measuring Wasm TinyGo...
+Architecture: wasm
+Script start time: 1728139407285 ms
+TinyGo Sort Wasm Trial 1 (Pull, wasm): Startup Time = 2879 ms
+Script start time: 1728139410417 ms
+TinyGo Sort Wasm Trial 2 (Pull, wasm): Startup Time = 2366 ms
+Script start time: 1728139412963 ms
+TinyGo Sort Wasm Trial 3 (Pull, wasm): Startup Time = 2344 ms
+Script start time: 1728139415478 ms
+TinyGo Sort Wasm Trial 4 (Pull, wasm): Startup Time = 2341 ms
+Script start time: 1728139418045 ms
+TinyGo Sort Wasm Trial 5 (Pull, wasm): Startup Time = 2320 ms
+Script start time: 1728139420537 ms
+TinyGo Sort Wasm Trial 6 (Pull, wasm): Startup Time = 2376 ms
+Script start time: 1728139423087 ms
+TinyGo Sort Wasm Trial 7 (Pull, wasm): Startup Time = 2421 ms
+Script start time: 1728139425768 ms
+TinyGo Sort Wasm Trial 8 (Pull, wasm): Startup Time = 2356 ms
+Script start time: 1728139428280 ms
+TinyGo Sort Wasm Trial 9 (Pull, wasm): Startup Time = 2341 ms
+Script start time: 1728139430860 ms
+TinyGo Sort Wasm Trial 10 (Pull, wasm): Startup Time = 2327 ms
+Average TinyGo Sort Wasm cold start time from pull (wasm): 2407 ms
+Measuring Wasm C++...
+Architecture: wasm
+Script start time: 1728139433364 ms
+C++ Sort Wasm Trial 1 (Pull, wasm): Startup Time = 2642 ms
+Script start time: 1728139436263 ms
+C++ Sort Wasm Trial 2 (Pull, wasm): Startup Time = 2326 ms
+Script start time: 1728139438741 ms
+C++ Sort Wasm Trial 3 (Pull, wasm): Startup Time = 2335 ms
+Script start time: 1728139441255 ms
+C++ Sort Wasm Trial 4 (Pull, wasm): Startup Time = 2279 ms
+Script start time: 1728139443812 ms
+C++ Sort Wasm Trial 5 (Pull, wasm): Startup Time = 2307 ms
+Script start time: 1728139446276 ms
+C++ Sort Wasm Trial 6 (Pull, wasm): Startup Time = 2353 ms
+Script start time: 1728139448799 ms
+C++ Sort Wasm Trial 7 (Pull, wasm): Startup Time = 2381 ms
+Script start time: 1728139451325 ms
+C++ Sort Wasm Trial 8 (Pull, wasm): Startup Time = 2380 ms
+Script start time: 1728139453868 ms
+C++ Sort Wasm Trial 9 (Pull, wasm): Startup Time = 2292 ms
+Script start time: 1728139456326 ms
+C++ Sort Wasm Trial 10 (Pull, wasm): Startup Time = 2276 ms
+Average C++ Sort Wasm cold start time from pull (wasm): 2357 ms
