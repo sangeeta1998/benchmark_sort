@@ -1,0 +1,64 @@
+Unable to find image 'sangeetakakati/sort-rust-native:latest' locally
+latest: Pulling from sangeetakakati/sort-rust-native
+b403f1101ac7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+ea89621ad76d: Verifying Checksum
+b403f1101ac7: Download complete
+b403f1101ac7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+Main function started at: 1728309951699 ms
+Time for sorting all at once: 2.144109ms
+Time for sorting one at a time: 342.925µs
+
+real	0m4,008s
+user	0m0,044s
+sys	0m0,024s
+Unable to find image 'sangeetakakati/sort-rust-wasm:wasm' locally
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+5d0e7aa06827: Pulling fs layer
+26d0345ddc9f: Pulling fs layer
+26d0345ddc9f: Download complete
+5d0e7aa06827: Verifying Checksum
+5d0e7aa06827: Download complete
+5d0e7aa06827: Pull complete
+26d0345ddc9f: Pull complete
+Digest: sha256:98c7106dc04abbbb730f8f5ef3c44a4a749b43780a5e3f43bdd5d37db965c773
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1728309955686 ms
+Time for sorting all at once: 6.030236ms
+Time for sorting one at a time: 4.792553ms
+
+real	0m3,893s
+user	0m0,044s
+sys	0m0,020s
+Unable to find image 'sangeetakakati/sort-tinygo-native:latest' locally
+latest: Pulling from sangeetakakati/sort-tinygo-native
+docker: toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit.
+See 'docker run --help'.
+
+real	0m1,894s
+user	0m0,036s
+sys	0m0,000s
+Unable to find image 'sangeetakakati/sort-tinygo-wasm:wasm' locally
+docker: Error response from daemon: toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit.
+See 'docker run --help'.
+
+real	0m1,492s
+user	0m0,024s
+sys	0m0,012s
+Unable to find image 'sangeetakakati/cpp-sort-native:latest' locally
+docker: Error response from daemon: toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit.
+See 'docker run --help'.
+
+real	0m1,483s
+user	0m0,024s
+sys	0m0,016s
+Unable to find image 'sangeetakakati/cpp-sort-wasm:wasm' locally
+docker: Error response from daemon: toomanyrequests: You have reached your pull rate limit. You may increase the limit by authenticating and upgrading: https://www.docker.com/increase-rate-limit.
+See 'docker run --help'.
+
+real	0m1,459s
+user	0m0,028s
+sys	0m0,004s
