@@ -45,10 +45,10 @@ fn main() -> io::Result<()> {
     let start_time = current_time_millis();
     println!("Main function started at: {} ms", start_time);
 
-    // Input and output file paths
-    let input_file = "input.txt";
-    let output_file_all_at_once = "output_all_at_once.txt";
-    let output_file_one_at_a_time = "output_one_at_a_time.txt";
+ 
+    let input_file = "/app/input.txt";
+    let output_file_all_at_once = "/app/output_all_at_once.txt";
+    let output_file_one_at_a_time = "/app/output_one_at_a_time.txt";
 
     // Measure sorting the whole file at once
     let start_all_at_once = std::time::Instant::now();

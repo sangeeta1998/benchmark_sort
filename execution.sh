@@ -34,19 +34,16 @@ measure_execution_time() {
     {
         if [ -z "$runtime" ]; then
             # For native containers
-            time docker run --name $container_name --rm $image 
+            time docker run --name $container_name --rm --mount type=bind,source="$(pwd)",target=/app $image
         else
             # For Wasm containers with specific runtime
-            time docker run --runtime=$runtime --platform=$platform --name $container_name --rm $image
+            time docker run --runtime=$runtime --platform=$platform --name $container_name --rm --mount type=bind,source="$(pwd)",target=/app $image
         fi
     } 2>&1 | tee -a execution_time.log
 
     echo -e "--------------------------------------------"
     echo "Execution for $image completed"
 }
-
-
-
 
 arch=$(detect_architecture)
 
@@ -65,3 +62,4 @@ measure_execution_time "$tinygo_wasm_image" "io.containerd.wasmtime.v2" "wasm"
 
 measure_execution_time "$cpp_native_image" "" "$arch"
 measure_execution_time "$cpp_wasm_image" "io.containerd.wasmtime.v2" "wasm"
+

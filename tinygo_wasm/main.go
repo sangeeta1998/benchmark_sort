@@ -69,29 +69,29 @@ func sortFileOneAtATime(inputFile string, outputFile string) error {
 }
 
 func main() {
-	// Print the start time of the main function
-	startTime := currentTimeMillis()
-	fmt.Printf("Main function started at: %d ms\n", startTime)
+    // Print the start time of the main function
+    startTime := currentTimeMillis()
+    fmt.Printf("Main function started at: %d ms\n", startTime)
 
-	// Input and output file paths
-	inputFile := "input.txt"
-	outputFileAllAtOnce := "output_all_at_once.txt"
-	outputFileOneAtATime := "output_one_at_a_time.txt"
+    // Input and output file paths
+    inputFile := "/app/input.txt"  // Adjusted path
+    outputFileAllAtOnce := "/app/output_all_at_once.txt"
+    outputFileOneAtATime := "/app/output_one_at_a_time.txt"
 
-	// Measure sorting the whole file at once
-	startAllAtOnce := time.Now()
-	err := sortFileAllAtOnce(inputFile, outputFileAllAtOnce)
-	if err != nil {
-		fmt.Println("Error sorting all at once:", err)
-	}
-	fmt.Printf("Time for sorting all at once: %v\n", time.Since(startAllAtOnce))
+    // Measure sorting the whole file at once
+    startAllAtOnce := time.Now()
+    err := sortFileAllAtOnce(inputFile, outputFileAllAtOnce)
+    if err != nil {
+        fmt.Println("Error sorting all at once:", err)
+    }
+    fmt.Printf("Time for sorting all at once: %v\n", time.Since(startAllAtOnce))
 
-	// Measure sorting one line at a time
-	startOneAtATime := time.Now()
-	err = sortFileOneAtATime(inputFile, outputFileOneAtATime)
-	if err != nil {
-		fmt.Println("Error sorting one at a time:", err)
-	}
-	fmt.Printf("Time for sorting one at a time: %v\n", time.Since(startOneAtATime))
+    // Measure sorting one line at a time
+    startOneAtATime := time.Now()
+    err = sortFileOneAtATime(inputFile, outputFileOneAtATime)
+    if err != nil {
+        fmt.Println("Error sorting one at a time:", err)
+    }
+    fmt.Printf("Time for sorting one at a time: %v\n", time.Since(startOneAtATime))
 }
 

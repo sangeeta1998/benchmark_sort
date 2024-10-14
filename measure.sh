@@ -99,7 +99,7 @@ measure_wasm_rust() {
             docker rmi sangeetakakati/sort-rust-wasm:wasm > /dev/null 2>&1
             script_start_time=$(date +%s%3N)
             echo "Script start time: ${script_start_time} ms"
-            main_start_time=$(docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm --rm sangeetakakati/sort-rust-wasm:wasm 2>&1 | grep "Main function started at:" | awk '{print $5}')
+            main_start_time=$(docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm --rm --mount type=bind,source="$(pwd)",target=/app sangeetakakati/sort-rust-wasm:wasm 2>&1 | grep "Main function started at:" | awk '{print $5}')
             pull_time=$((main_start_time - script_start_time))
             total_pull_time=$((total_pull_time + pull_time))
             echo "Rust Sort Wasm Trial $i (Pull, $arch): Startup Time = $pull_time ms"
@@ -124,7 +124,7 @@ measure_wasm_tinygo() {
             docker rmi sangeetakakati/sort-tinygo-wasm:wasm > /dev/null 2>&1
             script_start_time=$(date +%s%3N)
             echo "Script start time: ${script_start_time} ms"
-            main_start_time=$(docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm --rm sangeetakakati/sort-tinygo-wasm:wasm 2>&1 | grep "Main function started at:" | awk '{print $5}')
+            main_start_time=$(docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm --rm --mount type=bind,source="$(pwd)",target=/app sangeetakakati/sort-tinygo-wasm:wasm 2>&1 | grep "Main function started at:" | awk '{print $5}')
             pull_time=$((main_start_time - script_start_time))
             total_pull_time=$((total_pull_time + pull_time))
             echo "TinyGo Sort Wasm Trial $i (Pull, $arch): Startup Time = $pull_time ms"
@@ -149,7 +149,7 @@ measure_wasm_cpp() {
             docker rmi sangeetakakati/cpp-sort-wasm:wasm > /dev/null 2>&1
             script_start_time=$(date +%s%3N)
             echo "Script start time: ${script_start_time} ms"
-            main_start_time=$(docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm --rm sangeetakakati/cpp-sort-wasm:wasm 2>&1 | grep "Main function started at:" | awk '{print $5}')
+            main_start_time=$(docker run --runtime=io.containerd.wasmtime.v2 --platform=wasm --rm --mount type=bind,source="$(pwd)",target=/app sangeetakakati/cpp-sort-wasm:wasm 2>&1 | grep "Main function started at:" | awk '{print $5}')
             pull_time=$((main_start_time - script_start_time))
             total_pull_time=$((total_pull_time + pull_time))
             echo "C++ Sort Wasm Trial $i (Pull, $arch): Startup Time = $pull_time ms"

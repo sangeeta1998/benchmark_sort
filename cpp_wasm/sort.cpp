@@ -48,9 +48,9 @@ int main() {
     std::cout << "Main function started at: " << start_time << " ms\n";
 
     // Input and output file paths
-    std::string input_file = "input.txt";
-    std::string output_file_all_at_once = "output_all_at_once.txt";
-    std::string output_file_one_at_a_time = "output_one_at_a_time.txt";
+    std::string input_file = "/app/input.txt";  // Adjusted path
+    std::string output_file_all_at_once = "/app/output_all_at_once.txt";
+    std::string output_file_one_at_a_time = "/app/output_one_at_a_time.txt";
 
     // Measure time for sorting entire file at once
     auto start_all_at_once = std::chrono::high_resolution_clock::now();
