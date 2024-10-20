@@ -1,135 +1,1675 @@
-Measuring Native Rust for amd64...
-Script start time: 1728293254064 ms
-Rust Sort Trial 1 (Pull, amd64): Startup Time = 2392 ms
-Script start time: 1728293256776 ms
-Rust Sort Trial 2 (Pull, amd64): Startup Time = 2376 ms
-Script start time: 1728293259378 ms
-Rust Sort Trial 3 (Pull, amd64): Startup Time = 2245 ms
-Script start time: 1728293261943 ms
-Rust Sort Trial 4 (Pull, amd64): Startup Time = 2239 ms
-Script start time: 1728293264454 ms
-Rust Sort Trial 5 (Pull, amd64): Startup Time = 2507 ms
-Script start time: 1728293267138 ms
-Rust Sort Trial 6 (Pull, amd64): Startup Time = 2372 ms
-Script start time: 1728293269683 ms
-Rust Sort Trial 7 (Pull, amd64): Startup Time = 2321 ms
-Script start time: 1728293272173 ms
-Rust Sort Trial 8 (Pull, amd64): Startup Time = 2255 ms
-Script start time: 1728293274746 ms
-Rust Sort Trial 9 (Pull, amd64): Startup Time = 2377 ms
-Script start time: 1728293277306 ms
-Rust Sort Trial 10 (Pull, amd64): Startup Time = 2297 ms
-Average Rust cold start time from pull (amd64): 2338 ms
-Measuring Native TinyGo for amd64...
-Script start time: 1728293279785 ms
-TinyGo Sort Trial 1 (Pull, amd64): Startup Time = 2591 ms
-Script start time: 1728293282524 ms
-TinyGo Sort Trial 2 (Pull, amd64): Startup Time = 2362 ms
-Script start time: 1728293285055 ms
-TinyGo Sort Trial 3 (Pull, amd64): Startup Time = 2272 ms
-Script start time: 1728293287509 ms
-TinyGo Sort Trial 4 (Pull, amd64): Startup Time = 2281 ms
-Script start time: 1728293290077 ms
-TinyGo Sort Trial 5 (Pull, amd64): Startup Time = 2266 ms
-Script start time: 1728293292708 ms
-TinyGo Sort Trial 6 (Pull, amd64): Startup Time = 2421 ms
-Script start time: 1728293295316 ms
-TinyGo Sort Trial 7 (Pull, amd64): Startup Time = 2349 ms
-Script start time: 1728293297831 ms
-TinyGo Sort Trial 8 (Pull, amd64): Startup Time = 2330 ms
-Script start time: 1728293300318 ms
-TinyGo Sort Trial 9 (Pull, amd64): Startup Time = 2223 ms
-Script start time: 1728293302705 ms
-TinyGo Sort Trial 10 (Pull, amd64): Startup Time = 2238 ms
-Average TinyGo cold start time from pull (amd64): 2333 ms
-Measuring Native C++ for amd64...
-Script start time: 1728293305114 ms
-C++ Sort Trial 1 (Pull, amd64): Startup Time = 2417 ms
-Script start time: 1728293307680 ms
-C++ Sort Trial 2 (Pull, amd64): Startup Time = 2342 ms
-Script start time: 1728293310203 ms
-C++ Sort Trial 3 (Pull, amd64): Startup Time = 2284 ms
-Script start time: 1728293312653 ms
-C++ Sort Trial 4 (Pull, amd64): Startup Time = 2293 ms
-Script start time: 1728293315105 ms
-C++ Sort Trial 5 (Pull, amd64): Startup Time = 2458 ms
-Script start time: 1728293317724 ms
-C++ Sort Trial 6 (Pull, amd64): Startup Time = 2285 ms
-Script start time: 1728293320238 ms
-C++ Sort Trial 7 (Pull, amd64): Startup Time = 2328 ms
-Script start time: 1728293322715 ms
-C++ Sort Trial 8 (Pull, amd64): Startup Time = 2344 ms
-Script start time: 1728293325228 ms
-C++ Sort Trial 9 (Pull, amd64): Startup Time = 2369 ms
-Script start time: 1728293327761 ms
-C++ Sort Trial 10 (Pull, amd64): Startup Time = 2263 ms
-Average C++ cold start time from pull (amd64): 2338 ms
-Measuring Wasm Rust...
-Architecture: wasm
-Script start time: 1728293330193 ms
-Rust Sort Wasm Trial 1 (Pull, wasm): Startup Time = 2764 ms
-Script start time: 1728293333140 ms
-Rust Sort Wasm Trial 2 (Pull, wasm): Startup Time = 2380 ms
-Script start time: 1728293335684 ms
-Rust Sort Wasm Trial 3 (Pull, wasm): Startup Time = 2323 ms
-Script start time: 1728293338272 ms
-Rust Sort Wasm Trial 4 (Pull, wasm): Startup Time = 2536 ms
-Script start time: 1728293340977 ms
-Rust Sort Wasm Trial 5 (Pull, wasm): Startup Time = 2497 ms
-Script start time: 1728293343721 ms
-Rust Sort Wasm Trial 6 (Pull, wasm): Startup Time = 2378 ms
-Script start time: 1728293346285 ms
-Rust Sort Wasm Trial 7 (Pull, wasm): Startup Time = 2352 ms
-Script start time: 1728293348827 ms
-Rust Sort Wasm Trial 8 (Pull, wasm): Startup Time = 2368 ms
-Script start time: 1728293351375 ms
-Rust Sort Wasm Trial 9 (Pull, wasm): Startup Time = 2439 ms
-Script start time: 1728293353995 ms
-Rust Sort Wasm Trial 10 (Pull, wasm): Startup Time = 2295 ms
-Average Rust Sort Wasm cold start time from pull (wasm): 2433 ms
-Measuring Wasm TinyGo...
-Architecture: wasm
-Script start time: 1728293356468 ms
-TinyGo Sort Wasm Trial 1 (Pull, wasm): Startup Time = 2950 ms
-Script start time: 1728293359606 ms
-TinyGo Sort Wasm Trial 2 (Pull, wasm): Startup Time = 2427 ms
-Script start time: 1728293362251 ms
-TinyGo Sort Wasm Trial 3 (Pull, wasm): Startup Time = 2385 ms
-Script start time: 1728293364813 ms
-TinyGo Sort Wasm Trial 4 (Pull, wasm): Startup Time = 2412 ms
-Script start time: 1728293367454 ms
-TinyGo Sort Wasm Trial 5 (Pull, wasm): Startup Time = 2379 ms
-Script start time: 1728293370013 ms
-TinyGo Sort Wasm Trial 6 (Pull, wasm): Startup Time = 2411 ms
-Script start time: 1728293372602 ms
-TinyGo Sort Wasm Trial 7 (Pull, wasm): Startup Time = 2427 ms
-Script start time: 1728293375228 ms
-TinyGo Sort Wasm Trial 8 (Pull, wasm): Startup Time = 2440 ms
-Script start time: 1728293378021 ms
-TinyGo Sort Wasm Trial 9 (Pull, wasm): Startup Time = 2414 ms
-Script start time: 1728293380702 ms
-TinyGo Sort Wasm Trial 10 (Pull, wasm): Startup Time = 2552 ms
-Average TinyGo Sort Wasm cold start time from pull (wasm): 2479 ms
-Measuring Wasm C++...
-Architecture: wasm
-Script start time: 1728293383443 ms
-C++ Sort Wasm Trial 1 (Pull, wasm): Startup Time = 2796 ms
-Script start time: 1728293386420 ms
-C++ Sort Wasm Trial 2 (Pull, wasm): Startup Time = 2381 ms
-Script start time: 1728293388962 ms
-C++ Sort Wasm Trial 3 (Pull, wasm): Startup Time = 2334 ms
-Script start time: 1728293391461 ms
-C++ Sort Wasm Trial 4 (Pull, wasm): Startup Time = 2363 ms
-Script start time: 1728293394007 ms
-C++ Sort Wasm Trial 5 (Pull, wasm): Startup Time = 2357 ms
-Script start time: 1728293396545 ms
-C++ Sort Wasm Trial 6 (Pull, wasm): Startup Time = 2338 ms
-Script start time: 1728293399142 ms
-C++ Sort Wasm Trial 7 (Pull, wasm): Startup Time = 2344 ms
-Script start time: 1728293401647 ms
-C++ Sort Wasm Trial 8 (Pull, wasm): Startup Time = 2698 ms
-Script start time: 1728293404509 ms
-C++ Sort Wasm Trial 9 (Pull, wasm): Startup Time = 2359 ms
-Script start time: 1728293407037 ms
-C++ Sort Wasm Trial 10 (Pull, wasm): Startup Time = 2347 ms
-Average C++ Sort Wasm cold start time from pull (wasm): 2431 ms
+
+Testing with forced fresh pull:
+
+============================================
+Running sangeetakakati/sort-rust-native:latest with  (Fresh Pull: true) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+5a76569d4da7: Download complete
+ea89621ad76d: Verifying Checksum
+ea89621ad76d: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 1): 2208 ms
+Main function started at: 1729414805409
+Container Execution Time Until Main Start (Iteration 1): 313 ms
+Iteration 2:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+ea89621ad76d: Verifying Checksum
+ea89621ad76d: Download complete
+5a76569d4da7: Verifying Checksum
+5a76569d4da7: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 2): 2059 ms
+Main function started at: 1729414807780
+Container Execution Time Until Main Start (Iteration 2): 295 ms
+Iteration 3:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+5a76569d4da7: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Download complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 3): 1995 ms
+Main function started at: 1729414810099
+Container Execution Time Until Main Start (Iteration 3): 296 ms
+Iteration 4:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+5a76569d4da7: Download complete
+ea89621ad76d: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 4): 2007 ms
+Main function started at: 1729414812450
+Container Execution Time Until Main Start (Iteration 4): 330 ms
+Iteration 5:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+ea89621ad76d: Download complete
+5a76569d4da7: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 5): 2647 ms
+Main function started at: 1729414815475
+Container Execution Time Until Main Start (Iteration 5): 341 ms
+Iteration 6:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+5a76569d4da7: Download complete
+ea89621ad76d: Verifying Checksum
+ea89621ad76d: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 6): 2013 ms
+Main function started at: 1729414817816
+Container Execution Time Until Main Start (Iteration 6): 310 ms
+Iteration 7:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+ea89621ad76d: Verifying Checksum
+ea89621ad76d: Download complete
+5a76569d4da7: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 7): 1998 ms
+Main function started at: 1729414820194
+Container Execution Time Until Main Start (Iteration 7): 357 ms
+Iteration 8:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+ea89621ad76d: Verifying Checksum
+ea89621ad76d: Download complete
+5a76569d4da7: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 8): 2030 ms
+Main function started at: 1729414822586
+Container Execution Time Until Main Start (Iteration 8): 334 ms
+Iteration 9:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+5a76569d4da7: Verifying Checksum
+5a76569d4da7: Download complete
+ea89621ad76d: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 9): 2015 ms
+Main function started at: 1729414824985
+Container Execution Time Until Main Start (Iteration 9): 354 ms
+Iteration 10:
+Removing image sangeetakakati/sort-rust-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-rust-native:latest
+Untagged: sangeetakakati/sort-rust-native@sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Deleted: sha256:3c840a2083b16ecbaff9cb7db4cc48ea6b5a3fa26195bdc24a62f6e8dff5eed2
+Deleted: sha256:25961e1d2321c052e6e4e4a3e698826094f16dbb67796c71d6dee16dda4deedd
+Deleted: sha256:5975ef6e9610ef58fd99c5dea2ef31efd455e86f1575fdb0c5a5b5c2c90aecdb
+latest: Pulling from sangeetakakati/sort-rust-native
+5a76569d4da7: Pulling fs layer
+ea89621ad76d: Pulling fs layer
+ea89621ad76d: Verifying Checksum
+ea89621ad76d: Download complete
+5a76569d4da7: Download complete
+5a76569d4da7: Pull complete
+ea89621ad76d: Pull complete
+Digest: sha256:2bfbec50ebd968fbfbe63b71aaa3f90ec5016b8ddadc223b5e0b43ea9579f2ea
+Status: Downloaded newer image for sangeetakakati/sort-rust-native:latest
+docker.io/sangeetakakati/sort-rust-native:latest
+Image Pull Time (Iteration 10): 2012 ms
+Main function started at: 1729414827367
+Container Execution Time Until Main Start (Iteration 10): 340 ms
+
+============================================
+Summary for sangeetakakati/sort-rust-native:latest:
+Average Image Pull Time: 2098 ms
+Average Time Until Main Function Start: 327 ms
+============================================
+
+Image: sangeetakakati/sort-rust-native:latest
+Average Pull Time: 2098 ms
+Average Time Until Main Start: 327 ms
+--------------------------------------------
+
+============================================
+Running sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmtime.v1 (Fresh Pull: true) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Download complete
+ace56c854686: Verifying Checksum
+ace56c854686: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 1): 2153 ms
+Main function started at: 1729414830068
+Container Execution Time Until Main Start (Iteration 1): 540 ms
+Iteration 2:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+ace56c854686: Verifying Checksum
+ace56c854686: Download complete
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 2): 1991 ms
+Main function started at: 1729414832492
+Container Execution Time Until Main Start (Iteration 2): 402 ms
+Iteration 3:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Download complete
+ace56c854686: Verifying Checksum
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 3): 2014 ms
+Main function started at: 1729414834983
+Container Execution Time Until Main Start (Iteration 3): 426 ms
+Iteration 4:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+ace56c854686: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 4): 2245 ms
+Main function started at: 1729414837636
+Container Execution Time Until Main Start (Iteration 4): 417 ms
+Iteration 5:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+ace56c854686: Verifying Checksum
+ace56c854686: Download complete
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 5): 1997 ms
+Main function started at: 1729414840134
+Container Execution Time Until Main Start (Iteration 5): 442 ms
+Iteration 6:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+ace56c854686: Download complete
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 6): 2008 ms
+Main function started at: 1729414842573
+Container Execution Time Until Main Start (Iteration 6): 419 ms
+Iteration 7:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+ace56c854686: Download complete
+a4ecab6f4621: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 7): 2006 ms
+Main function started at: 1729414845055
+Container Execution Time Until Main Start (Iteration 7): 449 ms
+Iteration 8:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+ace56c854686: Verifying Checksum
+a4ecab6f4621: Download complete
+ace56c854686: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 8): 2144 ms
+Main function started at: 1729414847645
+Container Execution Time Until Main Start (Iteration 8): 419 ms
+Iteration 9:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+ace56c854686: Verifying Checksum
+ace56c854686: Download complete
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 9): 1985 ms
+Main function started at: 1729414850097
+Container Execution Time Until Main Start (Iteration 9): 433 ms
+Iteration 10:
+Removing image sangeetakakati/sort-rust-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-rust-wasm:wasm
+Untagged: sangeetakakati/sort-rust-wasm@sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Deleted: sha256:3948a144896a570ed7f11b6f6948f79726bf5542c731b1fbf533e727c81daa31
+Deleted: sha256:52037c36564acf36a86c06e7b01ed771402fc4ad24314ece8bb54e8bef82010b
+Deleted: sha256:740c49d03b037b181d436a4927c67336efbc026b6fb108b104acc245cd6ad035
+wasm: Pulling from sangeetakakati/sort-rust-wasm
+ace56c854686: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Download complete
+ace56c854686: Download complete
+ace56c854686: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:b85cba69987afaab5c02d8ea3c31f92e6e18f9e7edb22ea44daddb31bdbc9f33
+Status: Downloaded newer image for sangeetakakati/sort-rust-wasm:wasm
+docker.io/sangeetakakati/sort-rust-wasm:wasm
+Image Pull Time (Iteration 10): 2022 ms
+Main function started at: 1729414852561
+Container Execution Time Until Main Start (Iteration 10): 415 ms
+
+============================================
+Summary for sangeetakakati/sort-rust-wasm:wasm:
+Average Image Pull Time: 2056 ms
+Average Time Until Main Function Start: 436 ms
+============================================
+
+Image: sangeetakakati/sort-rust-wasm:wasm
+Average Pull Time: 2056 ms
+Average Time Until Main Start: 436 ms
+--------------------------------------------
+
+============================================
+Running sangeetakakati/sort-tinygo-native:latest with  (Fresh Pull: true) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Verifying Checksum
+b372196cf04f: Download complete
+a89533660732: Verifying Checksum
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 1): 2236 ms
+Main function started at: 1729414855174
+Container Execution Time Until Main Start (Iteration 1): 353 ms
+Iteration 2:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Verifying Checksum
+b372196cf04f: Download complete
+a89533660732: Verifying Checksum
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 2): 2169 ms
+Main function started at: 1729414857708
+Container Execution Time Until Main Start (Iteration 2): 335 ms
+Iteration 3:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Verifying Checksum
+b372196cf04f: Download complete
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 3): 2021 ms
+Main function started at: 1729414860173
+Container Execution Time Until Main Start (Iteration 3): 404 ms
+Iteration 4:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Download complete
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 4): 1988 ms
+Main function started at: 1729414862481
+Container Execution Time Until Main Start (Iteration 4): 298 ms
+Iteration 5:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+a89533660732: Verifying Checksum
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Verifying Checksum
+b372196cf04f: Download complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 5): 2207 ms
+Main function started at: 1729414865027
+Container Execution Time Until Main Start (Iteration 5): 304 ms
+Iteration 6:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+a89533660732: Verifying Checksum
+a89533660732: Download complete
+b372196cf04f: Verifying Checksum
+b372196cf04f: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 6): 1959 ms
+Main function started at: 1729414867298
+Container Execution Time Until Main Start (Iteration 6): 294 ms
+Iteration 7:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Verifying Checksum
+b372196cf04f: Download complete
+a89533660732: Verifying Checksum
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 7): 2012 ms
+Main function started at: 1729414869641
+Container Execution Time Until Main Start (Iteration 7): 307 ms
+Iteration 8:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Download complete
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 8): 1977 ms
+Main function started at: 1729414871943
+Container Execution Time Until Main Start (Iteration 8): 308 ms
+Iteration 9:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Download complete
+a89533660732: Verifying Checksum
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 9): 2091 ms
+Main function started at: 1729414874414
+Container Execution Time Until Main Start (Iteration 9): 374 ms
+Iteration 10:
+Removing image sangeetakakati/sort-tinygo-native:latest to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-native:latest
+Untagged: sangeetakakati/sort-tinygo-native@sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Deleted: sha256:995fe58bffc22edfc8bf2f287847fad0f20143f0d393d58a3fe94042f5e0d62a
+Deleted: sha256:31fffb4f8ed9db1936214f65c75013a7ecbfe8c29b09748c3edeac064d9122e3
+Deleted: sha256:eacdead3383e651660cf1dcf8635d72b941901c7e2e461f5a1ac572336269fa6
+latest: Pulling from sangeetakakati/sort-tinygo-native
+a89533660732: Pulling fs layer
+b372196cf04f: Pulling fs layer
+b372196cf04f: Download complete
+a89533660732: Verifying Checksum
+a89533660732: Download complete
+a89533660732: Pull complete
+b372196cf04f: Pull complete
+Digest: sha256:a40b26dae0f578fe1e51e1d633575e1b79fb4a0cb31157ab98c228981dcaa194
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-native:latest
+docker.io/sangeetakakati/sort-tinygo-native:latest
+Image Pull Time (Iteration 10): 1987 ms
+Main function started at: 1729414876767
+Container Execution Time Until Main Start (Iteration 10): 317 ms
+
+============================================
+Summary for sangeetakakati/sort-tinygo-native:latest:
+Average Image Pull Time: 2064 ms
+Average Time Until Main Function Start: 329 ms
+============================================
+
+Image: sangeetakakati/sort-tinygo-native:latest
+Average Pull Time: 2064 ms
+Average Time Until Main Start: 329 ms
+--------------------------------------------
+
+============================================
+Running sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmtime.v1 (Fresh Pull: true) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 1): 2256 ms
+Main function started at: 1729414879562
+Container Execution Time Until Main Start (Iteration 1): 539 ms
+Iteration 2:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 2): 2243 ms
+Main function started at: 1729414882317
+Container Execution Time Until Main Start (Iteration 2): 498 ms
+Iteration 3:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 3): 1993 ms
+Main function started at: 1729414884851
+Container Execution Time Until Main Start (Iteration 3): 515 ms
+Iteration 4:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+fc9be97f1f25: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 4): 1999 ms
+Main function started at: 1729414887458
+Container Execution Time Until Main Start (Iteration 4): 562 ms
+Iteration 5:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 5): 2033 ms
+Main function started at: 1729414890048
+Container Execution Time Until Main Start (Iteration 5): 526 ms
+Iteration 6:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Download complete
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 6): 2347 ms
+Main function started at: 1729414892926
+Container Execution Time Until Main Start (Iteration 6): 516 ms
+Iteration 7:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 7): 2017 ms
+Main function started at: 1729414895506
+Container Execution Time Until Main Start (Iteration 7): 525 ms
+Iteration 8:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+a4ecab6f4621: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 8): 2033 ms
+Main function started at: 1729414898054
+Container Execution Time Until Main Start (Iteration 8): 478 ms
+Iteration 9:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+a4ecab6f4621: Verifying Checksum
+a4ecab6f4621: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 9): 1980 ms
+Main function started at: 1729414900583
+Container Execution Time Until Main Start (Iteration 9): 526 ms
+Iteration 10:
+Removing image sangeetakakati/sort-tinygo-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/sort-tinygo-wasm:wasm
+Untagged: sangeetakakati/sort-tinygo-wasm@sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Deleted: sha256:54f8d1de71459a7f3cd587846e2db569fbaaa7eabcf0c18cb306c337e3614eec
+Deleted: sha256:50e8e55353ae8f94c15a86bf6dfac5754e450acccb986773777efa527a38fab6
+Deleted: sha256:5e296712e58a47f5e8c0a0b316f5de77eebfe16a169b4d58774cced42b178b13
+wasm: Pulling from sangeetakakati/sort-tinygo-wasm
+fc9be97f1f25: Pulling fs layer
+a4ecab6f4621: Pulling fs layer
+a4ecab6f4621: Download complete
+fc9be97f1f25: Verifying Checksum
+fc9be97f1f25: Download complete
+fc9be97f1f25: Pull complete
+a4ecab6f4621: Pull complete
+Digest: sha256:7823cad9dc9f4d77eb4b1708ef08e911e2ff150d9ed7f40d986a42a27326daef
+Status: Downloaded newer image for sangeetakakati/sort-tinygo-wasm:wasm
+docker.io/sangeetakakati/sort-tinygo-wasm:wasm
+Image Pull Time (Iteration 10): 2025 ms
+Main function started at: 1729414903128
+Container Execution Time Until Main Start (Iteration 10): 503 ms
+
+============================================
+Summary for sangeetakakati/sort-tinygo-wasm:wasm:
+Average Image Pull Time: 2092 ms
+Average Time Until Main Function Start: 518 ms
+============================================
+
+Image: sangeetakakati/sort-tinygo-wasm:wasm
+Average Pull Time: 2092 ms
+Average Time Until Main Start: 518 ms
+--------------------------------------------
+
+============================================
+Running sangeetakakati/cpp-sort-native:latest with  (Fresh Pull: true) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Verifying Checksum
+d06ac720e19f: Download complete
+4353a8381068: Verifying Checksum
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 1): 2203 ms
+Main function started at: 1729414905734
+Container Execution Time Until Main Start (Iteration 1): 356 ms
+Iteration 2:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Verifying Checksum
+d06ac720e19f: Download complete
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 2): 2049 ms
+Main function started at: 1729414908135
+Container Execution Time Until Main Start (Iteration 2): 324 ms
+Iteration 3:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Download complete
+4353a8381068: Verifying Checksum
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 3): 2034 ms
+Main function started at: 1729414910536
+Container Execution Time Until Main Start (Iteration 3): 349 ms
+Iteration 4:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Verifying Checksum
+d06ac720e19f: Download complete
+4353a8381068: Verifying Checksum
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 4): 2656 ms
+Main function started at: 1729414913600
+Container Execution Time Until Main Start (Iteration 4): 372 ms
+Iteration 5:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Verifying Checksum
+d06ac720e19f: Download complete
+4353a8381068: Verifying Checksum
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 5): 2045 ms
+Main function started at: 1729414916009
+Container Execution Time Until Main Start (Iteration 5): 335 ms
+Iteration 6:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Download complete
+4353a8381068: Verifying Checksum
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 6): 2065 ms
+Main function started at: 1729414918445
+Container Execution Time Until Main Start (Iteration 6): 351 ms
+Iteration 7:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Download complete
+4353a8381068: Verifying Checksum
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 7): 2040 ms
+Main function started at: 1729414920843
+Container Execution Time Until Main Start (Iteration 7): 316 ms
+Iteration 8:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Verifying Checksum
+d06ac720e19f: Download complete
+4353a8381068: Verifying Checksum
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 8): 2023 ms
+Main function started at: 1729414923241
+Container Execution Time Until Main Start (Iteration 8): 352 ms
+Iteration 9:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Verifying Checksum
+d06ac720e19f: Download complete
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 9): 2037 ms
+Main function started at: 1729414925645
+Container Execution Time Until Main Start (Iteration 9): 347 ms
+Iteration 10:
+Removing image sangeetakakati/cpp-sort-native:latest to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-native:latest
+Untagged: sangeetakakati/cpp-sort-native@sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Deleted: sha256:5ca335b87ee01f0d084fde18c978ada02f1b8dacd0494bafb6ecc392ac520fb7
+Deleted: sha256:713afbc845052f2e4dddb2bb66e4fa84a787cde37c660f7dbbcd109a8a98b327
+Deleted: sha256:a96b6f81ba9da532d9f84cdf73bbd26edfb5be9564e030d7b6a63dd93267de46
+latest: Pulling from sangeetakakati/cpp-sort-native
+4353a8381068: Pulling fs layer
+d06ac720e19f: Pulling fs layer
+d06ac720e19f: Download complete
+4353a8381068: Verifying Checksum
+4353a8381068: Download complete
+4353a8381068: Pull complete
+d06ac720e19f: Pull complete
+Digest: sha256:5c665dd4eb107333d1c748924a5dc3753f556b6cf6075ad56702e75a9f0f14ca
+Status: Downloaded newer image for sangeetakakati/cpp-sort-native:latest
+docker.io/sangeetakakati/cpp-sort-native:latest
+Image Pull Time (Iteration 10): 2021 ms
+Main function started at: 1729414928074
+Container Execution Time Until Main Start (Iteration 10): 369 ms
+
+============================================
+Summary for sangeetakakati/cpp-sort-native:latest:
+Average Image Pull Time: 2117 ms
+Average Time Until Main Function Start: 347 ms
+============================================
+
+Image: sangeetakakati/cpp-sort-native:latest
+Average Pull Time: 2117 ms
+Average Time Until Main Start: 347 ms
+--------------------------------------------
+
+============================================
+Running sangeetakakati/cpp-sort-wasm:wasm with io.containerd.wasmtime.v1 (Fresh Pull: true) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+eedf89eeeb1c: Verifying Checksum
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Verifying Checksum
+8ca26f20b72a: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 1): 2423 ms
+Main function started at: 1729414930927
+Container Execution Time Until Main Start (Iteration 1): 461 ms
+Iteration 2:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Verifying Checksum
+8ca26f20b72a: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 2): 2009 ms
+Main function started at: 1729414933450
+Container Execution Time Until Main Start (Iteration 2): 432 ms
+Iteration 3:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+8ca26f20b72a: Verifying Checksum
+8ca26f20b72a: Download complete
+eedf89eeeb1c: Verifying Checksum
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 3): 2044 ms
+Main function started at: 1729414936008
+Container Execution Time Until Main Start (Iteration 3): 474 ms
+Iteration 4:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Verifying Checksum
+8ca26f20b72a: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 4): 1944 ms
+Main function started at: 1729414938349
+Container Execution Time Until Main Start (Iteration 4): 378 ms
+Iteration 5:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+8ca26f20b72a: Verifying Checksum
+8ca26f20b72a: Download complete
+eedf89eeeb1c: Verifying Checksum
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 5): 1987 ms
+Main function started at: 1729414940781
+Container Execution Time Until Main Start (Iteration 5): 452 ms
+Iteration 6:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+eedf89eeeb1c: Verifying Checksum
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Verifying Checksum
+8ca26f20b72a: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 6): 1979 ms
+Main function started at: 1729414943232
+Container Execution Time Until Main Start (Iteration 6): 441 ms
+Iteration 7:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+8ca26f20b72a: Verifying Checksum
+8ca26f20b72a: Download complete
+eedf89eeeb1c: Verifying Checksum
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 7): 2015 ms
+Main function started at: 1729414945733
+Container Execution Time Until Main Start (Iteration 7): 440 ms
+Iteration 8:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 8): 2025 ms
+Main function started at: 1729414948214
+Container Execution Time Until Main Start (Iteration 8): 436 ms
+Iteration 9:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+8ca26f20b72a: Verifying Checksum
+8ca26f20b72a: Download complete
+eedf89eeeb1c: Verifying Checksum
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 9): 2112 ms
+Main function started at: 1729414950806
+Container Execution Time Until Main Start (Iteration 9): 463 ms
+Iteration 10:
+Removing image sangeetakakati/cpp-sort-wasm:wasm to force fresh pull...
+Untagged: sangeetakakati/cpp-sort-wasm:wasm
+Untagged: sangeetakakati/cpp-sort-wasm@sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Deleted: sha256:3b87cd1ddb4a7c676e30188b9cd4468107e6db02e44a79db36437c4e5a76ab40
+Deleted: sha256:15b146112e426f266ed4547e1425d7d7b524e29bd2cce67947d7986a2b7548c6
+Deleted: sha256:8b01a2ba9a27cd998b7e130aaeaa72b9d5d3e1c14c2f0f8d1b3ad5207314c2cb
+wasm: Pulling from sangeetakakati/cpp-sort-wasm
+8ca26f20b72a: Pulling fs layer
+eedf89eeeb1c: Pulling fs layer
+eedf89eeeb1c: Download complete
+8ca26f20b72a: Download complete
+8ca26f20b72a: Pull complete
+eedf89eeeb1c: Pull complete
+Digest: sha256:29403283e0b1b5178c033ff612da786af8d63d790e2789806f042105a8cd6030
+Status: Downloaded newer image for sangeetakakati/cpp-sort-wasm:wasm
+docker.io/sangeetakakati/cpp-sort-wasm:wasm
+Image Pull Time (Iteration 10): 2002 ms
+Main function started at: 1729414953271
+Container Execution Time Until Main Start (Iteration 10): 431 ms
+
+============================================
+Summary for sangeetakakati/cpp-sort-wasm:wasm:
+Average Image Pull Time: 2054 ms
+Average Time Until Main Function Start: 440 ms
+============================================
+
+Image: sangeetakakati/cpp-sort-wasm:wasm
+Average Pull Time: 2054 ms
+Average Time Until Main Start: 440 ms
+--------------------------------------------
+
+Testing with cached images:
+Using cached image for sangeetakakati/sort-rust-native:latest
+
+============================================
+Running sangeetakakati/sort-rust-native:latest with  (Fresh Pull: false) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414953644
+Container Execution Time Until Main Start (Iteration 1): 349 ms
+Iteration 2:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414953987
+Container Execution Time Until Main Start (Iteration 2): 330 ms
+Iteration 3:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414954317
+Container Execution Time Until Main Start (Iteration 3): 333 ms
+Iteration 4:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414954639
+Container Execution Time Until Main Start (Iteration 4): 314 ms
+Iteration 5:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414954957
+Container Execution Time Until Main Start (Iteration 5): 324 ms
+Iteration 6:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414955288
+Container Execution Time Until Main Start (Iteration 6): 331 ms
+Iteration 7:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414955619
+Container Execution Time Until Main Start (Iteration 7): 328 ms
+Iteration 8:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414955936
+Container Execution Time Until Main Start (Iteration 8): 312 ms
+Iteration 9:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414956258
+Container Execution Time Until Main Start (Iteration 9): 321 ms
+Iteration 10:
+Skipping image pull for cached image: sangeetakakati/sort-rust-native:latest
+Main function started at: 1729414956587
+Container Execution Time Until Main Start (Iteration 10): 346 ms
+
+============================================
+Summary for sangeetakakati/sort-rust-native:latest:
+Average Image Pull Time: 0 ms
+Average Time Until Main Function Start: 328 ms
+============================================
+
+Image: sangeetakakati/sort-rust-native:latest
+Average Pull Time: 0 ms
+Average Time Until Main Start: 328 ms
+--------------------------------------------
+Using cached image for sangeetakakati/sort-rust-wasm:wasm
+
+============================================
+Running sangeetakakati/sort-rust-wasm:wasm with io.containerd.wasmtime.v1 (Fresh Pull: false) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414957044
+Container Execution Time Until Main Start (Iteration 1): 422 ms
+Iteration 2:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414957426
+Container Execution Time Until Main Start (Iteration 2): 374 ms
+Iteration 3:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414957813
+Container Execution Time Until Main Start (Iteration 3): 399 ms
+Iteration 4:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414958216
+Container Execution Time Until Main Start (Iteration 4): 408 ms
+Iteration 5:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414958616
+Container Execution Time Until Main Start (Iteration 5): 379 ms
+Iteration 6:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414959015
+Container Execution Time Until Main Start (Iteration 6): 395 ms
+Iteration 7:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414959399
+Container Execution Time Until Main Start (Iteration 7): 386 ms
+Iteration 8:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414959810
+Container Execution Time Until Main Start (Iteration 8): 432 ms
+Iteration 9:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414960264
+Container Execution Time Until Main Start (Iteration 9): 419 ms
+Iteration 10:
+Skipping image pull for cached image: sangeetakakati/sort-rust-wasm:wasm
+Main function started at: 1729414960644
+Container Execution Time Until Main Start (Iteration 10): 385 ms
+
+============================================
+Summary for sangeetakakati/sort-rust-wasm:wasm:
+Average Image Pull Time: 0 ms
+Average Time Until Main Function Start: 399 ms
+============================================
+
+Image: sangeetakakati/sort-rust-wasm:wasm
+Average Pull Time: 0 ms
+Average Time Until Main Start: 399 ms
+--------------------------------------------
+Using cached image for sangeetakakati/sort-tinygo-native:latest
+
+============================================
+Running sangeetakakati/sort-tinygo-native:latest with  (Fresh Pull: false) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414960973
+Container Execution Time Until Main Start (Iteration 1): 314 ms
+Iteration 2:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414961281
+Container Execution Time Until Main Start (Iteration 2): 305 ms
+Iteration 3:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414961594
+Container Execution Time Until Main Start (Iteration 3): 321 ms
+Iteration 4:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414961916
+Container Execution Time Until Main Start (Iteration 4): 327 ms
+Iteration 5:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414962245
+Container Execution Time Until Main Start (Iteration 5): 328 ms
+Iteration 6:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414962592
+Container Execution Time Until Main Start (Iteration 6): 362 ms
+Iteration 7:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414962953
+Container Execution Time Until Main Start (Iteration 7): 322 ms
+Iteration 8:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414963238
+Container Execution Time Until Main Start (Iteration 8): 270 ms
+Iteration 9:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414963509
+Container Execution Time Until Main Start (Iteration 9): 272 ms
+Iteration 10:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-native:latest
+Main function started at: 1729414963795
+Container Execution Time Until Main Start (Iteration 10): 309 ms
+
+============================================
+Summary for sangeetakakati/sort-tinygo-native:latest:
+Average Image Pull Time: 0 ms
+Average Time Until Main Function Start: 313 ms
+============================================
+
+Image: sangeetakakati/sort-tinygo-native:latest
+Average Pull Time: 0 ms
+Average Time Until Main Start: 313 ms
+--------------------------------------------
+Using cached image for sangeetakakati/sort-tinygo-wasm:wasm
+
+============================================
+Running sangeetakakati/sort-tinygo-wasm:wasm with io.containerd.wasmtime.v1 (Fresh Pull: false) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414964292
+Container Execution Time Until Main Start (Iteration 1): 501 ms
+Iteration 2:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414964789
+Container Execution Time Until Main Start (Iteration 2): 494 ms
+Iteration 3:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414965278
+Container Execution Time Until Main Start (Iteration 3): 464 ms
+Iteration 4:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414965745
+Container Execution Time Until Main Start (Iteration 4): 491 ms
+Iteration 5:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414966254
+Container Execution Time Until Main Start (Iteration 5): 497 ms
+Iteration 6:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414966747
+Container Execution Time Until Main Start (Iteration 6): 492 ms
+Iteration 7:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414967237
+Container Execution Time Until Main Start (Iteration 7): 491 ms
+Iteration 8:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414967716
+Container Execution Time Until Main Start (Iteration 8): 478 ms
+Iteration 9:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414968200
+Container Execution Time Until Main Start (Iteration 9): 476 ms
+Iteration 10:
+Skipping image pull for cached image: sangeetakakati/sort-tinygo-wasm:wasm
+Main function started at: 1729414968673
+Container Execution Time Until Main Start (Iteration 10): 474 ms
+
+============================================
+Summary for sangeetakakati/sort-tinygo-wasm:wasm:
+Average Image Pull Time: 0 ms
+Average Time Until Main Function Start: 485 ms
+============================================
+
+Image: sangeetakakati/sort-tinygo-wasm:wasm
+Average Pull Time: 0 ms
+Average Time Until Main Start: 485 ms
+--------------------------------------------
+Using cached image for sangeetakakati/cpp-sort-native:latest
+
+============================================
+Running sangeetakakati/cpp-sort-native:latest with  (Fresh Pull: false) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414969049
+Container Execution Time Until Main Start (Iteration 1): 347 ms
+Iteration 2:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414969385
+Container Execution Time Until Main Start (Iteration 2): 329 ms
+Iteration 3:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414969720
+Container Execution Time Until Main Start (Iteration 3): 325 ms
+Iteration 4:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414970035
+Container Execution Time Until Main Start (Iteration 4): 329 ms
+Iteration 5:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414970360
+Container Execution Time Until Main Start (Iteration 5): 319 ms
+Iteration 6:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414970679
+Container Execution Time Until Main Start (Iteration 6): 324 ms
+Iteration 7:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414971007
+Container Execution Time Until Main Start (Iteration 7): 332 ms
+Iteration 8:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414971346
+Container Execution Time Until Main Start (Iteration 8): 324 ms
+Iteration 9:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414971666
+Container Execution Time Until Main Start (Iteration 9): 307 ms
+Iteration 10:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-native:latest
+Main function started at: 1729414971992
+Container Execution Time Until Main Start (Iteration 10): 348 ms
+
+============================================
+Summary for sangeetakakati/cpp-sort-native:latest:
+Average Image Pull Time: 0 ms
+Average Time Until Main Function Start: 328 ms
+============================================
+
+Image: sangeetakakati/cpp-sort-native:latest
+Average Pull Time: 0 ms
+Average Time Until Main Start: 328 ms
+--------------------------------------------
+Using cached image for sangeetakakati/cpp-sort-wasm:wasm
+
+============================================
+Running sangeetakakati/cpp-sort-wasm:wasm with io.containerd.wasmtime.v1 (Fresh Pull: false) for 10 iterations
+--------------------------------------------
+Iteration 1:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414972457
+Container Execution Time Until Main Start (Iteration 1): 466 ms
+Iteration 2:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414972930
+Container Execution Time Until Main Start (Iteration 2): 438 ms
+Iteration 3:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414973339
+Container Execution Time Until Main Start (Iteration 3): 414 ms
+Iteration 4:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414973754
+Container Execution Time Until Main Start (Iteration 4): 437 ms
+Iteration 5:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414974194
+Container Execution Time Until Main Start (Iteration 5): 398 ms
+Iteration 6:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414974600
+Container Execution Time Until Main Start (Iteration 6): 424 ms
+Iteration 7:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414975013
+Container Execution Time Until Main Start (Iteration 7): 418 ms
+Iteration 8:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414975471
+Container Execution Time Until Main Start (Iteration 8): 459 ms
+Iteration 9:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414975927
+Container Execution Time Until Main Start (Iteration 9): 432 ms
+Iteration 10:
+Skipping image pull for cached image: sangeetakakati/cpp-sort-wasm:wasm
+Main function started at: 1729414976354
+Container Execution Time Until Main Start (Iteration 10): 432 ms
+
+============================================
+Summary for sangeetakakati/cpp-sort-wasm:wasm:
+Average Image Pull Time: 0 ms
+Average Time Until Main Function Start: 431 ms
+============================================
+
+Image: sangeetakakati/cpp-sort-wasm:wasm
+Average Pull Time: 0 ms
+Average Time Until Main Start: 431 ms
+--------------------------------------------
